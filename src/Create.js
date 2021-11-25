@@ -24,7 +24,6 @@ const Create = () => {
     })
   }
   
-
   return (
     <div className="create">
       <h2>Aggiungi un nuovo comune </h2>
@@ -70,10 +69,9 @@ const Create = () => {
         </select>
         <label>Dettagli:</label>
         <textarea
-          
           value={details}
-          onChange={(e) => setDetails(e.target.value)}
-        ></textarea>
+          onChange={(e) => setDetails(e.target.value)}>
+        </textarea>
         
         <button>Aggiungi</button>
       </form>

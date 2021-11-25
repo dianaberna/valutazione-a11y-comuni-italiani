@@ -6,7 +6,7 @@
       "score": 10,
       "provincia": "RM",
       "regione": "Lazio",
-      "zona": "centro",
+      "zona": "Centro",
       "regole": {
         "tastiera": 1,
         "alt": 1,
@@ -24,7 +24,7 @@
       "score": 2,
       "provincia": "MI",
       "regione": "Lombardia",
-      "zona": "nord",
+      "zona": "Nord",
       "regole": {
         "tastiera": 0,
         "alt": 1,
@@ -42,7 +42,7 @@
       "score": 5,
       "provincia": "BA",
       "regione": "Puglia",
-      "zona": "sud",
+      "zona": "Sud",
       "regole": {
         "tastiera": 1,
         "alt": 1,

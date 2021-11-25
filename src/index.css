@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap');
 
 /* base styles */
 * {
   margin: 0;
-  font-family: "Quicksand";
+  font-family: "Roboto";
   color: #333;
 }
 .navbar {
@@ -71,12 +71,17 @@
   border-radius: 10px;
   color: #fff;
   border: 0;
-  padding: 8px;
-  cursor: pointer;
+  padding: 10px 20px;
 }
 
 
 /* Table */
 .rdt_TableHeadRow{
   background-color: #ddd;;
+}
+
+/* Home */
+.home-disclaimer{
+  width: 40vw;
+  margin: 10vh 0;
 }
