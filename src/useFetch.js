@@ -16,6 +16,9 @@ const useFetch = (url) => {
         } 
         return res.json();
       })
+      .then((responseJson) => {
+        return responseJson.comuni;
+      })
       .then(data => {
         setIsPending(false);
         setData(data);
