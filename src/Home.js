@@ -2,7 +2,7 @@ import useFetch from "./useFetch";
 import MyTable from "./MyTable";
 
 const Home = () => {
-  const { error, isPending, data: blogs } = useFetch('http://localhost:8000/blogs')
+  const { error, isPending, data: blogs } = useFetch('http://localhost:8000/comuni')
 
   return (
     <div className="home">

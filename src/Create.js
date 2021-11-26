@@ -14,7 +14,7 @@ const Create = () => {
     e.preventDefault();
     const blog = { comune, score, provincia, regione, zona, details};
 
-    fetch('http://localhost:8000/blogs/', {
+    fetch('http://localhost:8000/comuni', {
       method: 'POST',
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(blog)
