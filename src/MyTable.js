@@ -4,21 +4,6 @@ const ExpandedComponent = ({ data }) => <pre>{data.details}</pre>;
 
 const columns = [
     {
-        name: 'Criteri superati',
-        selector: row => row.criteri_superati,
-        sortable: true,
-    },
-    {
-        name: 'Criteri NON superati',
-        selector: row => row.criteri_non_superati,
-        sortable: true,
-    },
-    {
-        name: 'Criteri non valutabili',
-        selector: row => row.criteri_non_valutabili,
-        sortable: true,
-    },
-    {
         name: 'Comune',
         selector: row => row.comune,
         sortable: true,
@@ -36,6 +21,21 @@ const columns = [
     {
         name: 'Zona',
         selector: row => row.zona,
+        sortable: true,
+    },
+    {
+        name: 'Criteri superati',
+        selector: row => row.criteri_superati,
+        sortable: true,
+    },
+    {
+        name: 'Criteri NON superati',
+        selector: row => row.criteri_non_superati,
+        sortable: true,
+    },
+    {
+        name: 'Criteri non valutabili',
+        selector: row => row.criteri_non_valutabili,
         sortable: true,
     },
     {
