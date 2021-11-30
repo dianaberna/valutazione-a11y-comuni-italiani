@@ -7,12 +7,12 @@ const Create = () => {
   const [provincia, setProvincia] = useState('');
   const [regione, setRegione] = useState('');
   const [zona, setZona] = useState('');
-  const [details, setDetails] = useState('');
+  const [dettagli, setDettagli] = useState('');
   const history = useHistory();
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const blog = { comune, score, provincia, regione, zona, details};
+    const blog = { comune, provincia, regione, zona, dettagli};
 
     fetch('http://localhost:8000/comuni', {
       method: 'POST',
@@ -69,8 +69,8 @@ const Create = () => {
         </select>
         <label>Dettagli:</label>
         <textarea
-          value={details}
-          onChange={(e) => setDetails(e.target.value)}>
+          value={dettagli}
+          onChange={(e) => setDettagli(e.target.value)}>
         </textarea>
         
         <button>Aggiungi</button>
