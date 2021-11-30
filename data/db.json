@@ -1,94 +1,73 @@
 {
   "comuni": [
     {
-      "comune": "Roma",
-      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
-      "score": 10,
-      "provincia": "RM",
-      "regione": "Lazio",
-      "zona": "Centro",
-      "regole": {
-        "tastiera": 1,
-        "alt": 1,
-        "reponsive": 1,
-        "media": 1,
-        "sintassi": 1,
-        "form": 0,
-        "leggibile": 1
-      },
-      "id": 1
-    },
-    {
       "comune": "Milano",
-      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
-      "score": 2,
+      "dettagli": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+      "sito_web": "",
+      "criteri_superati": 2,
+      "criteri_non_superati": 3,
+      "criteri_non_valutabili": 1,
       "provincia": "MI",
       "regione": "Lombardia",
       "zona": "Nord",
       "regole": {
-        "tastiera": 0,
-        "alt": 1,
-        "reponsive": 0,
-        "media": 0,
-        "sintassi": 1,
-        "form": 0,
-        "leggibile": 0
+        "navigazione_tastiera": -1,
+        "contrasto_colori": 1,
+        "testo_alt": -1,
+        "reponsive_design": 1,
+        "sintassi": -1,
+        "contenuti_temporizzati": 0
       },
+      "data_ultima_verifica": "11/08/2021",
+      "test_automatico": "si",
+      "test_manuale": "si",
+      "id": 1
+    },
+    {
+      "comune": "Catania",
+      "dettagli": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+      "sito_web": "",
+      "criteri_superati": 2,
+      "criteri_non_superati": 3,
+      "criteri_non_valutabili": 1,
+      "provincia": "CT",
+      "regione": "Sicilia",
+      "zona": "Sud",
+      "regole": {
+        "navigazione_tastiera": 1,
+        "contrasto_colori": 1,
+        "testo_alt": -1,
+        "reponsive_design": -1,
+        "sintassi": -1,
+        "contenuti_temporizzati": 0
+      },
+      "data_ultima_verifica": "11/08/2021",
+      "test_automatico": "si",
+      "test_manuale": "si",
       "id": 2
     },
     {
-      "comune": "Bari",
-      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
-      "score": 5,
-      "provincia": "BA",
-      "regione": "Puglia",
-      "zona": "Sud",
-      "regole": {
-        "tastiera": 1,
-        "alt": 1,
-        "reponsive": 1,
-        "media": 1,
-        "sintassi": 1,
-        "form": 0,
-        "leggibile": 0
-      },
-      "id": 3
-    },
-    {
-      "comune": "Magliano Di Tenna",
-      "score": "4",
-      "provincia": "FM",
+      "comune": "Corridonia",
+      "dettagli": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+      "sito_web": "",
+      "criteri_superati": 1,
+      "criteri_non_superati": 4,
+      "criteri_non_valutabili": 1,
+      "provincia": "MC",
       "regione": "Marche",
       "zona": "Centro",
-      "details": "prova",
       "regole": {
-        "tastiera": 1,
-        "alt": 0,
-        "reponsive": 1,
-        "media": 0,
-        "sintassi": 1,
-        "form": 0,
-        "leggibile": 1
+        "navigazione_tastiera": -1,
+        "contrasto_colori": -1,
+        "testo_alt": -1,
+        "reponsive_design": 1,
+        "sintassi": -1,
+        "contenuti_temporizzati": 0
       },
-      "id": 4
-    },
-    {
-      "comune": "Pisa",
-      "score": "6",
-      "provincia": "PI",
-      "regione": "Toscana",
-      "zona": "Centro",
-      "details": "prova dettagli",
-      "regole": {
-        "tastiera": 1,
-        "alt": 1,
-        "reponsive": 1,
-        "media": 1,
-        "sintassi": 0,
-        "form": 1,
-        "leggibile": 1
-      },
-      "id": 5
+      "data_ultima_verifica": "11/08/2021",
+      "test_automatico": "si",
+      "test_manuale": "si",
+      "id": 3
     }
   ]
 }

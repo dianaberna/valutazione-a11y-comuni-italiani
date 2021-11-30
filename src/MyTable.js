@@ -4,8 +4,18 @@ const ExpandedComponent = ({ data }) => <pre>{data.details}</pre>;
 
 const columns = [
     {
-        name: 'Punteggio',
-        selector: row => row.score,
+        name: 'Criteri superati',
+        selector: row => row.criteri_superati,
+        sortable: true,
+    },
+    {
+        name: 'Criteri NON superati',
+        selector: row => row.criteri_non_superati,
+        sortable: true,
+    },
+    {
+        name: 'Criteri non valutabili',
+        selector: row => row.criteri_non_valutabili,
         sortable: true,
     },
     {
@@ -29,12 +39,12 @@ const columns = [
         sortable: true,
     },
     {
-        name: 'Tastiera',
-        selector: row => row.regole.tastiera,
+        name: 'Navigazione da tastiera',
+        selector: row => row.regole.navigazione_tastiera,
         sortable: true,
         conditionalCellStyles : [
             {
-                when: row => row.regole.tastiera === 1,
+                when: row => row.regole.navigazione_tastiera === 1,
                 style: {
                     backgroundColor: 'rgba(63, 195, 128, 0.5)',
                     color: 'white',
@@ -45,7 +55,7 @@ const columns = [
                 
             }, 
             {
-                when: row => row.regole.tastiera === 0,
+                when: row => row.regole.navigazione_tastiera === 0,
                 style: {
                     backgroundColor: 'rgba(220, 20, 60, 0.5)',
                     color: 'white',
@@ -57,8 +67,8 @@ const columns = [
         ]
     },
     {
-        name: 'Alt',
-        selector: row => row.regole.alt,
+        name: 'Data',
+        selector: row => row.data_ultima_verifica,
         sortable: true,
     },
 ];
