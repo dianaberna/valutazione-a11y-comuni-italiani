@@ -18,7 +18,7 @@ const columns = [
         selector: row => row.regione,
         sortable: true,
     },
-    {
+   /* {
         name: 'Zona',
         selector: row => row.zona,
         sortable: true,
@@ -70,7 +70,7 @@ const columns = [
         name: 'Data',
         selector: row => row.data_ultima_verifica,
         sortable: true,
-    },
+    },*/
 ];
 
 
