@@ -1,17 +1,7 @@
-[
-  {
-    "comune": "Comune abruzzo 1",
-    "provincia": "",
-    "regione": "Abruzzo",
-    "dettagli": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
-    "sito_web": "",
-    "criteri_superati": 1,
-    "criteri_non_superati": 1,
-    "criteri_non_valutabili": 1,
-    "zona": "Centro"
-  },
-  {
-      "comune": "Comune abruzzo 2",
+{
+  "comuni":[
+    {
+      "comune": "Comune abruzzo 1",
       "provincia": "",
       "regione": "Abruzzo",
       "dettagli": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
@@ -20,5 +10,17 @@
       "criteri_non_superati": 1,
       "criteri_non_valutabili": 1,
       "zona": "Centro"
-  }
-]
+    },
+    {
+        "comune": "Comune abruzzo 2",
+        "provincia": "",
+        "regione": "Abruzzo",
+        "dettagli": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+        "sito_web": "",
+        "criteri_superati": 1,
+        "criteri_non_superati": 1,
+        "criteri_non_valutabili": 1,
+        "zona": "Centro"
+    }
+  ]
+}

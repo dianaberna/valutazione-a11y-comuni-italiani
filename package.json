@@ -1,13 +1,13 @@
 {
-  "name": "cacio",
+  "name": "vaci",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://vaci.dianacodes.it/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.5.0",
     "bootstrap": "^5.1.3",
-    "chart.js": "^3.6.0",
     "gh-pages": "^3.2.3",
     "react": "^17.0.1",
     "react-bootstrap": "^2.0.2",
@@ -16,8 +16,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "serve": "^13.0.2",
-    "styled-components": "^5.3.3",
-    "web-vitals": "^0.2.4"
+    "styled-components": "^5.3.3"
   },
   "scripts": {
     "start": "react-scripts start",
