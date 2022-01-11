@@ -1,6 +1,5 @@
-{
-  "comuni":[
-    {
+export const row = [
+  {
     "codice_istat": "066",
     "comune": "L'Aquila",
     "provincia": "AQ",
@@ -300,5 +299,4 @@
       "ripartizione_geografica": "Nord-est",
       "codice_ripartizione_geografica": 2
     }
-  ]
-}
+]
