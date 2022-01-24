@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&display=swap');
+
+.no-shadow{
+    box-shadow: none !important;
+}
+.black-link{
+    color: #000 !important;
+}
+.search-input{
+    color: #000 !important;
+    background-color: #FFF !important;
+    padding-left: 1.5rem !important;
+}
+.search-input::-webkit-input-placeholder {
+    content: "CIAO" !important
+  }
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

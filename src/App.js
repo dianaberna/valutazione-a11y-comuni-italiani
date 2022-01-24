@@ -1,5 +1,3 @@
-
-import Navbar from './component/Navbar';
 import Home from './component/Home';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import NotFound from './component/NotFound';
@@ -8,10 +6,8 @@ import './styles/output.css';
 function App() {
   return (
     <Router>
-      <div className="App">
-        {/*
-        <Navbar />
-         */}
+      <div className="App p-4 sm:p-24">
+
         <div className="content">
           <Switch>
             <Route exact path="/">
