@@ -1,5 +1,4 @@
 import { HashLink } from 'react-router-hash-link';
-import {Link} from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -22,7 +21,7 @@ const Footer = () => {
                     <a
                         href="https://github.com/dianaberna/valutazione-a11y-comuni-italiani"
                         target='_blank'
-                        rel="noopener"
+                        rel="noreferrer"
                         aria-label='Github'
                     >
                         <svg className='w-10 pt-4' viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">

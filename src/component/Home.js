@@ -77,8 +77,8 @@ const Home = () => {
       options.pages = options.total / options.display
     }
     
-    console.log(options)
-    console.log(search)
+    //console.log(options)
+    //console.log(search)
   return (
     <div>
       <Header />

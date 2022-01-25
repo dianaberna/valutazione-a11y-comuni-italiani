@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&display=swap');
 
+body{
+    font-family: "Nunito";
+}
+
 .no-shadow{
     box-shadow: none !important;
 }
@@ -11,9 +15,6 @@
     background-color: #FFF !important;
     padding-left: 1.5rem !important;
 }
-.search-input::-webkit-input-placeholder {
-    content: "CIAO" !important
-  }
 
 @tailwind base;
 @tailwind components;

@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&display=swap');
 
+body{
+    font-family: "Nunito";
+}
+
 .no-shadow{
     box-shadow: none !important;
 }
@@ -11,9 +15,6 @@
     background-color: #FFF !important;
     padding-left: 1.5rem !important;
 }
-.search-input::-webkit-input-placeholder {
-    content: "CIAO" !important
-  }
 
 /*
 ! tailwindcss v3.0.15 | MIT License | https://tailwindcss.com
@@ -473,6 +474,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 .w-full{
     width: 100%;
 }
+.w-1\/4{
+    width: 25%;
+}
+.w-10{
+    width: 2.5rem;
+}
 .w-1\/2{
     width: 50%;
 }
@@ -481,9 +488,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .w-1\/6{
     width: 16.666667%;
-}
-.w-10{
-    width: 2.5rem;
 }
 .table-fixed{
     table-layout: fixed;
@@ -530,9 +534,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .rounded-none{
     border-radius: 0px;
 }
-.border{
-    border-width: 1px;
-}
 .border-2{
     border-width: 2px;
 }
@@ -561,9 +562,9 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-left: 6rem;
     padding-right: 6rem;
 }
-.py-4{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+.py-10{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
 }
 .px-4{
     padding-left: 1rem;
@@ -585,15 +586,14 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
 }
-.py-10{
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-}
 .pb-6{
     padding-bottom: 1.5rem;
 }
 .pb-4{
     padding-bottom: 1rem;
+}
+.pt-4{
+    padding-top: 1rem;
 }
 .pr-4{
     padding-right: 1rem;
@@ -655,6 +655,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .focus\:outline-offset-2:focus{
     outline-offset: 2px;
+}
+.focus\:outline-white:focus{
+    outline-color: #fff;
 }
 .focus\:outline-black:focus{
     outline-color: #000;

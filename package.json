@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "npm run watch:css && react-scripts start",
-    "build": "npm build build:css && react-scripts build",
+    "build": "postcss src/styles/tailwind.css -o src/styles/output.css && react-scripts build",
     "build:css": "postcss src/styles/tailwind.css -o src/styles/output.css",
     "watch:css": "postcss src/styles/tailwind.css -o src/styles/output.css",
     "deploy": "gh-pages -d build -b deploy"
